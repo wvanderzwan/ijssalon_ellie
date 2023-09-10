@@ -54,6 +54,11 @@ def meervoudig(invoer_lijst):
 meervoudig([10,5,3,2,1,2,9])
 
 
+korte_lijst = None
+
 def combinatie(invoer_lijst_2):
+    global korte_lijst
     korte_lijst = meervoudig(invoer_lijst_2)
     return korte_lijst
+
+mijn_functie_2 (korte_lijst)
